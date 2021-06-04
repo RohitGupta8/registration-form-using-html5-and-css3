@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <div class="logo">
+                <H1>cool boy</H1>
+            </div>
+
+        </div>
+        <hr>
+
+    </header>
+    <div class="menu">
+        <a href="#">home</a>
+        <a href="#">gallery</a>
+        <a href="#">downloads</a>
+        <a href="#">contact us</a>
+        <a href="#">about us</a>
+    </div>
+    <main>
+        <div class="reg">
+            <h1>Sign up</h1>
+            <h5>--it's very simple</h5>
+            <hr style="color:red" ,>
+            <br>
+            <form action="#">
+                <span><input type="text" class="text" placeholder="First Name"></span>
+                <span><input type="text" class="text" placeholder="Last Name"></span>
+                <br><br>
+                <input type="email" class="text" placeholder="Email">
+                <br><br>
+                <input type="number" name="phone" id="phone" placeholder="Phone Number">
+                <br><br>
+                <label for="bday">Date of Birth</label><input type="date" name="dob" id="bday">
+
+                <span> <label for="male">Male </label> <input type="radio" name="gender" id="male"></span><span> <label
+                        for="female">Female</label> <input type="radio" name="gender" id="Female"></span><span> <label
+                        for="other">Other</label> <input type="radio" name="gender" id="other"></span>
+                <br><br>
+                <label for="rel">Marital Status</label>
+                <select id="rel" name="marital">
+                    <option value="Single">Single</option>
+                    <option value="Married">Married</option>
+                    <option value="Divorced">Divorced</option>
+                    <option value="Widow">Widow</option>
+                </select>
+                <br><br>
+                <input type="button" value="Subit">
+            </form>
+        </div>
+    </main>
+
+</body>
+
+</html>
